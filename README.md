@@ -1,6 +1,6 @@
 # 📍 Sukadekat - Platform Sosial & Direktori UMKM Lokal
 
-![Sukadekat Banner](public/images/id1-umkm-cover.jpg) 
+![Sukadekat Banner](public/images/thumbnail.png) 
 
 > 🔗 **Live Demo:** [Klik disini untuk mencoba aplikasi](https://suka-dekat-mia-2025.vercel.app/)
 
