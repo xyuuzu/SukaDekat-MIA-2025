@@ -6,7 +6,7 @@ export const umkmData = [
     badge: "Terlaris",
     distance: "1.2 km",
     operatingHours: { open: 5, close: 22 },
-    coverImage: "/images/id1-umkm-cover.jpg", 
+    coverImage: "/images/id1-umkm-cover.jpg",
     profileImg: "/images/id1-umkm-propil.jpg",
     shortDesc: "Warung makan yang berspesialis pada masakan rumahan dengan harga yang terjangkau.",
     desc: "Warung makan tegal yang memiliki masakan dengan cita rasa masakan rumahan yang memiliki harga yang pas untuk pelajar dan mahasiswa.",
@@ -20,12 +20,12 @@ export const umkmData = [
         image: "/images/id1-umkm-propil.jpg",
         date: "2 jam yang lalu",
         title: "Kulit Krispi",
-        text: "Renyahnya kulit yang dimasak lama agar menghasilkan kulit yang renyah. Dipadukan oleh panasnya nasi yang baru dimasak, menambah sensi rumahan.",
+        text: "Renyahnya kulit yang dimasak lama agar menghasilkan kulit yang renyah.",
         description: "<p>Renyahnya kulit yang dimasak lama agar menghasilkan kulit yang renyah. Dipadukan oleh panasnya nasi yang baru dimasak, menambah sensi rumahan.</p>",
         likes: 42,
         comments: 15,
         stats: { views: "1.2K", likes: 42, comments: 15 }
-      },
+      }
     ]
   },
   {
@@ -63,9 +63,9 @@ export const umkmData = [
     category: "Makanan",
     badge: null,
     distance: "2.1 km",
-    operatingHours: { open: 18, close: 1 }, 
+    operatingHours: { open: 18, close: 1 },
     coverImage: "/images/id3-umkm-cover.jpg",
-    profileImg: "/images/id3-umkm-propil.jpg",
+    profileImg: "/images/id3-umkm-propil.jpg", // Pastikan ada di folder images
     shortDesc: "Kedai nasi goreng yang digoreng dengan teknik masak yang AJIB banget!!!",
     desc: "Kedai nasi goreng yang telah menggorang selama lebih dari 5 tahun. Nasi goreng ini dianggap legend",
     location: "Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257",
@@ -95,8 +95,8 @@ export const umkmData = [
     operatingHours: { open: 6, close: 9 },
     coverImage: "/images/id4-umkm-cover.jpg",
     profileImg: "/images/id4-umkm-propil.jpg",
-   shortDesc: "Bubur tekstur kental dengan kuah kuning gurih dan topping kerupuk melimpah.",
-    desc: "Bubur Ayam Mantap menghadirkan cita rasa otentik dengan tekstur bubur yang lembut dan kuah kuning kaya rempah (ngaldu banget). Menjadi favorit mahasiswa Telkom karena porsinya yang mengenyangkan dan harganya yang sangat bersahabat. Wajib coba sate usus dan ati ampelanya!",
+    shortDesc: "Sarapan butuh yang cepet Bubur Ayam Mantep solusinya.",
+    desc: "Bubur ayam yang membuat para pekerja dan mahasiswa yang butuh energi cepat, MENGGILA!!!.",
     location: "Jl. Mangga Dua Raya No.42, RT.02/RW.01, Sukapura, Kec. Dayeuhkolot, Kota Bandung, Jawa Barat 40267",
     rating: 4.5,
     reviews: 42,
@@ -107,19 +107,8 @@ export const umkmData = [
         image: "/images/id4-post1.jpg",
         date: "6 hari yang lalu",
         title: "Bubur Ayam Komplit",
-        text: "Sarapan kenyang cuma 15 ribu! Topping ayam suwir, kacang, dan sate usus bumbu kuning.",
-       description: `
-          <p><strong>Sarapan Juara untuk Memulai Harimu! ☀️</strong></p>
-          <p>Bingung mau sarapan apa sebelum kelas pagi? Mampir ke Bubur Ayam Mantap dulu yuk!</p>
-          <p>Menu <strong>Bubur Ayam Komplit</strong> kami isinya ga pelit:</p>
-          <ul>
-            <li>✅ Bubur Kental Lembut</li>
-            <li>✅ Ayam Suwir Melimpah</li>
-            <li>✅ Kacang Kedelai Goreng</li>
-            <li>✅ Kerupuk(Boleh Refill!)</li>
-          </ul>
-          <p>Mumpung masih pagi, stok sate kulit dan sate telur puyuh masih lengkap. Jangan sampai kehabisan ya!</p>
-        `,
+        text: "Bingung mau nambah lauk apa??, tenang aja kita nyediain Bubur Ayam Komplit.",
+        description: "<p>Bingung mau nambah lauk apa??, tenang aja kita nyediain Bubur Ayam Komplit. Di paket komplit ini kita nyediain banyak jenis lauk rempala ati, kulit, telur, dan usus. Banyak banget kannn, tunggu apalagi langsung ajaa sarapannnn.</p>",
         likes: 33,
         comments: 8,
         stats: { views: "300", likes: 33, comments: 8 }
@@ -163,7 +152,7 @@ export const umkmData = [
     distance: "1.5 km",
     operatingHours: { open: 10, close: 22 },
     coverImage: "/images/id6-umkm-cover.jpg",
-    profileImg: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyKvJlaNEf4AzUMllhXjxMvfH9KdPOKooHP9Wszp4op8FN4jOzafE4BzrYBJ0iNmy0E0zLeKZ-Tgi9g1Syl7h9eL6svR5kA4OsfCdhDtYDhchJhKXun4i6P4Ri6Iw5UbM_zyB9-0GH0GOHc=w529-h298-k-no",
+    profileImg: "/images/id6-umkm-cover.jpg", // Fallback ke cover jika profil tidak ada
     shortDesc: "Panas Bojongsoang reda dengan segar nya Es Doger Idaman.",
     desc: "Nikmati rice bowl yang compact untuk makan siang yang cepat.",
     location: "Jl. Mangga Dua, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat",
@@ -173,7 +162,7 @@ export const umkmData = [
     posts: [
       {
         id: 601,
-        image: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy2HIhpSNERNR6dpHTjXORnRTwapCI6ToiclRWhLl0cAfBg4j3z-iASMdbKkjyrr40tjX_BbZ4h19Y8QwrH9BWlnKXWURaBKyIj9wvpr-OBVPePRIMY40W9ogOhyVlTbob3QuDAr5kQLqB1=w203-h454-k-no", 
+        image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b", // Placeholder Food
         date: "3 hari yang lalu",
         title: "Beli Ayam Kampus Komplit Gratis Es Teh",
         text: "Ayam Kampus Komplit yang diisi dengan banyak kondimen yang dapat menjadikan makanan lebih nikmat.",
@@ -192,7 +181,7 @@ export const umkmData = [
     distance: "1.5 km",
     operatingHours: { open: 10, close: 21 },
     coverImage: "/images/id7-umkm-cover.jpg",
-    profileImg: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxCox5g-aEPZLLXLuTtumDTClTSEJCHAhmRdduX78EFA8eZ-exVbDPV__YFZS9TzJ5Nh2aCFRs-EiIYyXQqn9Dnu02A59rCFX0XKYNbvzGd-eyCJN8B9vGxpBdIltEL5kkka40=w224-h398-k-no",
+    profileImg: "/images/id7-umkm-cover.jpg", // Fallback
     shortDesc: "Seporsi mie ayam yang harus dirasakan sesudah merasakan kerasnya hidup.",
     desc: "Mie ayam yang memiliki menu makanan yang bervariasi dari yamin hingga perbaksoan.",
     location: "Jl. Sukapura, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40267",
@@ -202,7 +191,7 @@ export const umkmData = [
     posts: [
       {
         id: 701,
-        image: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwJQpSwcvJv-p-o15HVm6TLDR0Vjjj_86gEjEC5Q_ebutiqtYQByZUiTZtfmm-E-d9Bh3vVF3p95CjT86oe1efTQOfPFJnemILW9qz-IEZ5QP_NdOyfmKYApaF-E5O7q2c4Z75KyxQXh2_u=w195-h143-p-k-no", 
+        image: "https://images.unsplash.com/photo-1585032226651-759b368d7246", // Placeholder Noodle
         date: "3 hari yang lalu",
         title: "Mie Yamin Bakso Cincang",
         text: "Mie yamin manis yang dipadukan dengan gurih nya bakso cincang.",
@@ -221,7 +210,7 @@ export const umkmData = [
     distance: "1.5 km",
     operatingHours: { open: 7, close: 21 },
     coverImage: "/images/id8-umkm-cover.jpg",
-    profileImg: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwCGF-aV_e72mcQA1beUXHG6rhYwI9ImpFRMLMxdiUvhJVsQ9X008wnMnpgytXimtEvuw4hsOQlUUoCETzco6sj-VSduKO6X7F3UgKyPRSbmKXJ7ZVN08BhbxbbMNOWd-y3Ue9x=w224-h398-k-no", 
+    profileImg: "/images/id8-umkm-cover.jpg", // Fallback
     shortDesc: "Ketoprak yang dibaluri oleh bumbu kacang yang medok khas Cirebon.",
     desc: "Ketoprak khas Cirebon yang memiliki cita rasa khas dan unik, yang dibaluri oleh bumbu kacang.",
     location: "belokan kost raflesia putri, Jl. Sukabirus, Citeureup, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257",
@@ -231,7 +220,7 @@ export const umkmData = [
     posts: [
       {
         id: 801,
-        image: "https://lh3.googleusercontent.com/p/AF1QipMAk-KNK16p7VpHE2bymqncsZc80ul8GL7vzZfB=w195-h143-p-k-no",
+        image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec", // Placeholder Food
         date: "3 hari yang lalu",
         title: "Ketoprak + Telor (LONTONG 20% LEBIH BANYAK)",
         text: "Bingung mau sarapan apa?? butuh yang simpel??, Ketoprak khas Cirebon solusinya.",
@@ -242,15 +231,15 @@ export const umkmData = [
       }
     ]
   },
-   {
+  {
     id: 9,
     name: "Salon Elbeauty Studio",
     category: "Layanan",
     badge: null,
     distance: "1.5 km",
     operatingHours: { open: 8, close: 22 },
-    coverImage: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyolQmWWMPMaPv5pjjiNPe-f4D1kS2tIAQ3teC0DJs0uMj9_DcOPLf0ZdmCHAJUJvuRjpMrJdEi6tZ5IGsQeTOEdnv9yUQousgPB_Sf_unDFS4KqCe8dm82uzUiezVsBFOexaWS=w224-h298-k-no",
-    profileImg: "https://lh3.googleusercontent.com/geougc-cs/AMBA38u6wBcsXU56v-dZbJ32N7Q9WENkjltj7TjTj_L3zgRbVE3IymABB_GNtIcqY2-gJrfLyfE3tXCv2is28p94RcTsvOXdYY-wDBK4m2flWADlTqAnFuJ6HxqgpixxGkm06ipwlKbazK3tcTQ=w750-h563-p",
+    coverImage: "https://images.unsplash.com/photo-1560066984-138dadb4c035",
+    profileImg: "https://images.unsplash.com/photo-1522337660859-02fbefca4702",
     shortDesc: "Salon dengan pelayanan yang tepat dan detail, yang siap memberi kejutan untuk kalian.",
     desc: "Salon yang bisa membuat anda menjadi semakin cantik dengan membayar harga yang terjangkau dengan pelayanan top star.",
     location: "Jl. Mangga Dua No.84, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257",
@@ -260,10 +249,11 @@ export const umkmData = [
     posts: [
       {
         id: 901,
-        image: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxTqsa_IF4mkXLPsegSxHCoO8K0U74XTz1dMM8JZ68nBWvAo4uf9XXEpa2iSKzYC2IJWrZrapx3909pulBtLPm1zqC8kQQbqqA2DWF6CvWcLDeet8LLUQFVwqCfEOMUcrWni18=w224-h298-k-no",
+        image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53",
         date: "7 menit yang lalu",
         title: "Promo nail art motif",
-        text: "Mau kuku cantik tapi gk mau mahal???, tenang aja khusus minggu ini kita udah nyiapin promo besar-besaran. Kita kasih diskon 20% untuk kalian yang nail art di kita minggu ini, tunggu apalagi? langsung aja ke Salon Elbeauty Studio.",
+        text: "Mau kuku cantik tapi gk mau mahal???, tenang aja khusus minggu ini kita udah nyiapin promo besar-besaran.",
+        description: "<p>Mau kuku cantik tapi gk mau mahal???, tenang aja khusus minggu ini kita udah nyiapin promo besar-besaran. Kita kasih diskon 20% untuk kalian yang nail art di kita minggu ini, tunggu apalagi? langsung aja ke Salon Elbeauty Studio.</p>",
         likes: 33,
         comments: 8,
         stats: { views: "110", likes: 23, comments: 8 }
@@ -278,7 +268,7 @@ export const umkmData = [
     distance: "1.5 km",
     operatingHours: { open: 8, close: 17 },
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCTeiEf68LHfJZICUfZ53cxZNb_1advBU0gg&s",
-    profileImg: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxLkDpZP49ZmuzSFqz24TAFWw9SsNzKAsYyLQbWEiZuyNYoccJmCV7getrzXzk2b-4THAFzUrk4McTAFRj1Qzp9ozccxtZdKBCvwGFNVA5p1SN-4n0dV19-NuYRMAZaU0BwL7yT=w224-h395-k-no",
+    profileImg: "https://images.unsplash.com/photo-1625047509168-a7026f36de04",
     shortDesc: "Motor rusak??!!!, butuh perbaikan cepat???!!! Langsung aja ke Bengkel Motor Rian.",
     desc: "Di Bengkel Motor Rian menyediakan berbagai macam servis, mulai dari servis harian sampai servis bagian motor yang rusak parah.",
     location: "Jl. Sukabirus No.B07, Citeureup, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40258",
@@ -288,20 +278,22 @@ export const umkmData = [
     posts: [
       {
         id: 1001,
-        image: "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxdsL7Wtl8FNB1MtpAsqKs0o2Khz4_O9Dfgb7suq7pC4s-5DAzOPIgWNpsl5QeYpSuG_xIPbvdb92a0r1MHPsKoXRO0HfT0Etgd3Y-CHuF_9GObnPte0UzOxHv4LBLIQ-O2Qsbx=w408-h544-k-no",
+        image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3",
         date: "6 jam yang lalu",
         title: "Gratis ganti oli garda",
-        text: "Mau ganti oli garda sekalian servis harian, tapi takut habis banyak? Kita udah nyediain buat kalian promo gratis oli garda untuk servis harian ke 3 kalinya di bengkel kami.Yuk tunggu apa lagi langsung aja servis harian di Bengkel Motor Rian.",
+        text: "Mau ganti oli garda sekalian servis harian, tapi takut habis banyak? Kita udah nyediain buat kalian promo gratis.",
+        description: "<p>Mau ganti oli garda sekalian servis harian, tapi takut habis banyak? Kita udah nyediain buat kalian promo gratis oli garda untuk servis harian ke 3 kalinya di bengkel kami.Yuk tunggu apa lagi langsung aja servis harian di Bengkel Motor Rian.</p>",
         likes: 33,
         comments: 8,
         stats: { views: "10", likes: 2, comments: 2 }
-      }
-    ]
-  }
-
+      }
+    ]
+  }
 ];
 
+// --- HELPER FUNCTIONS (WAJIB ADA DI BAGIAN BAWAH FILE) ---
 
+// Helper untuk mencari Post berdasarkan ID di seluruh data
 export const findPostById = (postId) => {
     const id = parseInt(postId); 
     for (const umkm of umkmData) {
@@ -318,6 +310,7 @@ export const findPostById = (postId) => {
     return null;
 };
 
+// Helper untuk cek jam buka
 export const checkOpenStatus = (hours) => {
     if (!hours) return false;
     const now = new Date();
